@@ -1,0 +1,146 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: rgb(148, 4, 154);
+  background: linear-gradient(
+    90deg,
+    rgba(148, 4, 154, 1) 21%,
+    rgba(75, 67, 219, 1) 49%,
+    rgba(0, 215, 255, 1) 85%
+  );
+}
+
+a,
+h1,
+h4 {
+  /* text-align: center; */
+  margin-bottom: 10px;
+  color: white;
+  margin-top: 40px;
+  margin-left: 1%;
+}
+
+table {
+  width: 100%;
+}
+
+/* Gaya dasar untuk body */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+/* Gaya untuk judul form */
+h1 {
+  /* text-align: center; */
+  margin-bottom: 20px;
+}
+
+/* Gaya untuk form */
+form {
+  width: 60%;
+  /* margin: 0 auto; */
+  /* border: 1px solid #ccc; */
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Gaya untuk label form */
+form label {
+  display: block;
+  margin-bottom: 5px;
+  color: white;
+  text-width: bold;
+}
+
+/* Gaya untuk input teks */
+form input[type="text"],
+form select {
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+button[type="submitt"] {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+button[type="edit"] {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+button[type="logout"] {
+  background-color: orange;
+  color: white;
+  padding: 10px 40px;
+  cursor: pointer;
+}
+
+/* Gaya untuk tombol submit saat dihover */
+button:hover {
+  background-color: black;
+}
+
+/* Gaya untuk container tabel */
+.table-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Gaya untuk tabel */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Gaya untuk header kolom tabel */
+th {
+  background-color: black;
+  color: white;
+  padding: 8px;
+}
+
+/* Gaya untuk isi sel pada tabel */
+td {
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f2f2f2;
+}
+
+/* Gaya untuk baris ganjil pada tabel */
+tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+form input[type="text"],
+cari {
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
